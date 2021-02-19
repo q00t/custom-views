@@ -3,4 +3,7 @@
     <string name="clock">Clock</string>
     <string name="complex_clock">Complex Clock</string>
     <string name="foreign_fragment">Foreign Fragment</string>
+    <string name="brasil">brasil</string>
+    <string name="france">france</string>
+    <string name="italy">Italy</string>
 </resources>

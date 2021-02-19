@@ -3,11 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ClockFragment">
 
     <uk.co.hypnotic.demo.ux.components.Clock
         android:id="@+id/clock"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        app:faceColour="?attr/primary_brand"
+        app:handColour="?attr/secondary_brand"/>
 
 </FrameLayout>
