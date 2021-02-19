@@ -1,0 +1,3 @@
+include ':ux-components'
+include ':app'
+rootProject.name = "Custom Views"

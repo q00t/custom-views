@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Clock">
+        <attr name="faceColour" format="reference|color"/>
+        <attr name="handColour" format="reference|color"/>
+        <attr name="handWidth" format="dimension"/>
+        <attr name="updateFrequency" format="integer"/>
+    </declare-styleable>
+
+</resources>
