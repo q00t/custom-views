@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:background="?attr/screen_background"
     android:orientation="vertical">
 
@@ -12,29 +12,41 @@
         android:weightSum="3">
 
         <Button
+            android:id="@+id/brasil"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="@color/golden_yellow_80"
+            android:backgroundTintMode="src_atop"
             android:gravity="center_horizontal"
+            android:onClick="changeTheme"
             android:text="@string/brasil"
             android:textAlignment="center" />
 
         <Button
+            android:id="@+id/france"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="@color/dark_blue_80"
+            android:backgroundTintMode="src_atop"
             android:gravity="center_horizontal"
+            android:onClick="changeTheme"
             android:text="@string/france"
             android:textAlignment="center" />
 
         <Button
+            android:id="@+id/italy"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="@color/pigment_green_80"
+            android:backgroundTintMode="src_atop"
             android:gravity="center_horizontal"
+            android:onClick="changeTheme"
             android:text="@string/italy"
             android:textAlignment="center" />
 

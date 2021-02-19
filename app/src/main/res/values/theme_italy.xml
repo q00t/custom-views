@@ -1,7 +1,8 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
     <style name="Theme.CustomViews.Italy" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <item name="screen_background">@color/pigment_green_10</item>
+        <item name="screen_background">@color/pigment_green_30</item>
         <item name="primary_brand">@color/pigment_green</item>
         <item name="secondary_brand">@color/white</item>
     </style>

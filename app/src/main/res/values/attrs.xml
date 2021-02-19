@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-        <attr name="screen_background" type="reference|color"/>
-        <attr name="primary_brand" type="reference|color"/>
-        <attr name="secondary_brand" type="reference|color"/>
+        <attr name="screen_background" type="color"/>
+        <attr name="primary_brand" type="color"/>
+        <attr name="secondary_brand" type="color"/>
 </resources>
