@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="?attr/screen_background"
+    android:background="@color/white"
+    android:backgroundTint="?attr/screen_background"
     android:orientation="vertical">
 
-    <LinearLayout
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -50,7 +51,7 @@
             android:text="@string/italy"
             android:textAlignment="center" />
 
-    </LinearLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
 
 
     <com.google.android.material.tabs.TabLayout
@@ -64,5 +65,5 @@
         android:layout_height="0dp"
         android:layout_weight="1" />
 
-</LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
 
